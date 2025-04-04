@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Vigneshwaran S - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Link AOS library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header id="navbar">
+        <nav>
+            <div class="logo">
+                <a href="#home">HARI</a> <!-- Initials or short name -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#objective">Objective</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <!-- Add Certification if desired in nav -->
+                 <!-- <li><a href="#contact">Contact</a></li> -->
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home/Introduction Section -->
+        <section id="home" class="hero">
+            <div class="hero-content" data-aos="fade-in">
+                <h1 class="name">HARI VIGNESHWARAN S</h1>
+                <p class="subtitle"><span class="typing-effect"></span></p> <!-- JS will populate this -->
+                <div class="contact-info-hero">
+                   <p><i class="icon mail-icon"></i> <a href="mailto:hari199831july@gmail.com">hari199831july@gmail.com</a></p>
+                   <p><i class="icon phone-icon"></i> <a href="tel:8248502451">8248502451</a></p>
+                   <p><i class="icon address-icon"></i> Plot No 12, Door No 8/450 A, Galaxy Park 1st Cross, Samathuvapuram, Bagalur Road, Hosur, Krishnagiri District, Tamil Nadu – 635109</p>
+                </div>
+                <a href="#projects" class="cta-button" data-aos="fade-up" data-aos-delay="200">View My Work</a>
+            </div>
+        </section>
+
+        <!-- Objective Section -->
+        <section id="objective" class="content-section">
+            <div class="container" data-aos="fade-up">
+                <h2>Objective</h2>
+                <p class="objective-text">To secure a position where I can efficiently contribute my skills and abilities to the growth of the organization and build my professional career.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="content-section alt-bg">
+             <div class="container" data-aos="fade-up">
+                 <h2>Experience</h2>
+                 <div class="experience-item">
+                     <h3>Software Engineer</h3>
+                     <p class="company">Rockwell Automation</p>
+                     <p class="duration">3.5 Years</p>
+                     <!-- Add responsibilities here if you have them -->
+                 </div>
+             </div>
+         </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+            <div class="container">
+                <h2 data-aos="fade-up">Projects Worked</h2>
+                <div class="project-card" data-aos="fade-up">
+                    <h3>Toyo Tires</h3>
+                    <p>Reports development using <span class="tech">Thingworx</span>, <span class="tech">Microsoft SQL</span>, <span class="tech">SSRS</span> and Alarms data transferring using <span class="tech">SSIS</span>. Alarms Description Analysis using <span class="tech">Power BI Desktop</span>. Developed a Diagnostic screen retrieving Server ping status, Service Running Status, CPU usage, RAM usage, and Storage information using Thingworx with <span class="tech">Custom Extension</span> as a Thing Template.</p>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Prometeon Tires</h3>
+                    <p>APM (Asset Performance Management) module development using <span class="tech">Thingworx</span> and <span class="tech">Microsoft SQL</span> for OEE Calculation.</p>
+                    <details>
+                        <summary>About OEE (Overall Equipment Effectiveness)</summary>
+                        <p class="oee-details">OEE is a metric measuring the efficiency of a production asset (e.g., tire manufacturing machine). Calculated by combining:</p>
+                        <ul>
+                            <li><b>Availability:</b> How often the asset functions when needed.</li>
+                            <li><b>Performance:</b> How much the asset produces relative to its potential.</li>
+                            <li><b>Quality:</b> How many high-quality items the asset produces.</li>
+                        </ul>
+                    </details>
+                </div>
+                 <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>QMS (Quality Management System)</h3>
+                    <p>Prepared Test Cases for Reports, Dashboards, and APM Solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="content-section alt-bg">
+            <div class="container" data-aos="fade-up">
+                <h2>Technical Exposure</h2>
+                <ul class="skills-list">
+                    <li data-aos="fade-right"><span>JAVA Basic:</span> Control Statements, JDBC, Object Class, Encapsulation</li>
+                    <li data-aos="fade-right" data-aos-delay="50"><span>THINGWORX:</span> Mashups, Masters, Services (JS, SQL, SQL CMD)</li>
+                    <li data-aos="fade-right" data-aos-delay="100"><span>MICROSOFT SQL:</span> Stored Procedures, Jobs, Tables, Installations</li>
+                    <li data-aos="fade-right" data-aos-delay="150"><span>SSRS:</span> Report table structure, designs, Export functionality</li>
+                    <li data-aos="fade-right" data-aos-delay="200"><span>SSIS:</span> Server-to-Server Data transfer (Source & Destination concept)</li>
+                    <li data-aos="fade-right" data-aos-delay="250"><span>POWER BI DESKTOP:</span> Alarms description analysis using Excel</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="content-section">
+            <div class="container" data-aos="fade-up">
+                <h2>Educational Details</h2>
+                 <div class="education-item">
+                     <h3>BE – Electrical and Electronics Engineering</h3>
+                     <p class="institution">Panimalar Engineering College (Anna University)</p>
+                     <p class="duration">2016 – 2020</p>
+                     <p class="grade">CGPA: 6.58</p>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certification Section -->
+        <section id="achievements" class="content-section alt-bg">
+             <div class="container">
+                 <div class="achievements-grid">
+                     <div class="achievement-item" data-aos="zoom-in">
+                         <h2>Achievement</h2>
+                         <p>Received <strong>Pursuit of Excellence</strong> Badge in Rockwell Automation.</p>
+                     </div>
+                     <div class="achievement-item" data-aos="zoom-in" data-aos-delay="100">
+                         <h2>Certification</h2>
+                         <p>Completed <strong>Microsoft Power BI Desktop for Business Intelligence</strong> on Udemy Portal.</p>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+        <!-- Contact Section (Optional Footer) -->
+         <section id="contact" class="content-section">
+             <div class="container" data-aos="fade-up">
+                 <h2>Get In Touch</h2>
+                 <p>Feel free to reach out via email or phone.</p>
+                 <div class="contact-links">
+                     <a href="mailto:hari199831july@gmail.com" class="cta-button">Email Me</a>
+                     <!-- Add LinkedIn link if you have one -->
+                     <!-- <a href="YOUR_LINKEDIN_URL" target="_blank" class="cta-button alt">LinkedIn</a> -->
+                 </div>
+             </div>
+         </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Hari Vigneshwaran S. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- AOS library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!-- Typed.js library -->
+    <script src="script.js"></script>
+</body>
+</html>
